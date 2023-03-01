@@ -277,6 +277,6 @@ ACCOUNT_EMAIL_VERIFICATION = "mandatory"
 # https://django-allauth.readthedocs.io/en/latest/configuration.html
 ACCOUNT_ADAPTER = "users.adapters.AccountAdapter"
 # https://django-allauth.readthedocs.io/en/latest/configuration.html
-SOCIALACCOUNT_ADAPTER = "OatsApplication.users.adapters.SocialAccountAdapter"
+SOCIALACCOUNT_ADAPTER = "susers.adapters.SocialAccountAdapter"
 
 OATS_USER_MODEL = "OatsApplication.users.model"
