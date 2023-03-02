@@ -20,7 +20,7 @@ class DateConverter:
 register_converter(DateConverter, "yyyy")
 
 urlpatterns = [
-    path("ApplicationPlatform/", views.home, name="scheduler-home"),
+    path("", views.home, name="scheduler-home"),
     #path("", TemplateView.as_view(template_name="pages/about.html")),
     path("about/", views.about, name="scheduler-about"),
     path("sessions/", SessionListView.as_view(), name="scheduler-sessions"),
